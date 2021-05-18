@@ -5,7 +5,7 @@ export default function home() {
         <div className="home" id="home">
             <div className="left">
                 <div className="imgContainer">
-                    <img src="assets/grandcanyon.jpg" alt=""></img>
+                    <img src={`${process.env.PUBLIC_URL}/assets/grandcanyon.jpg`} alt=""></img>
                 </div>
             </div>
             <div className="right">
